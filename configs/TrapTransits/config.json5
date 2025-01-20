@@ -5,6 +5,7 @@
 
   // debug_exfiltrations_tooltips_locale: 'en',
 
+  enable_automatic_transits_creation: true,
   hideout_secondary_stashes: [
     {
       id: 'PathToTarkov_Prapor_stash',
