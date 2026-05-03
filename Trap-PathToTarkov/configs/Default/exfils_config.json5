@@ -1,0 +1,223 @@
+﻿// exfils_config.json5 — Per-exit enable/disable control for Path To Tarkov
+// Auto-generated from SPT database. New exits are added automatically on server start.
+// enabled: true  = exit is active this raid
+// enabled: false = exit is completely removed from the game this raid
+//
+// IEApi = whether the Interactable Exfils API F-key prompt works for this exit
+{
+
+  // ════════════════════════════════════════════════════════════
+  // bigmap
+  // ════════════════════════════════════════════════════════════
+  'bigmap': {
+    'Administration Gate': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'Beyond Fuel Tank': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'Crossroads': { enabled: true  }, // PMC | always open | IEApi: yes
+    'Custom_scav_pmc': { enabled: false }, // Co-op (PMC + Scav required) | BREAKS AI if enabled
+    'customs_sniper_exit': { enabled: false }, // Internal AI sniper exit — not a player exit
+    'Dorms V-Ex': { enabled: true  }, // PMC | car extract — 5000 roubles, 50% chance | IEApi: yes
+    'EXFIL_ZB013': { enabled: true  }, // PMC | switch must be activated | IEApi: yes
+    'Factory Far Corner': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'Factory Shacks': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'Military Checkpoint': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'Old Azs Gate': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'Old Gas Station': { enabled: true  }, // PMC | green flare required, 50% chance | IEApi: yes
+    'Old Road Gate': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'Railroad To Military Base': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'Railroad To Port': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'Railroad To Tarkov': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'RUAF Roadblock': { enabled: true  }, // PMC + Scav | always open | IEApi: yes
+    'RUAF Roadblock_scav': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'Shack': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'Smuggler\'s Boat': { enabled: true  }, // PMC | fire must be lit (50% chance) | secret exit — no IEApi
+    'Sniper Roadblock': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'Trailer Park': { enabled: true  }, // PMC | always open | IEApi: yes
+    'Trailer Park Workers Shack': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'Warehouse 17': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'Warehouse 4': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'ZB-1011': { enabled: true  }, // PMC | always open | IEApi: yes
+    'ZB-1012': { enabled: true  } // PMC | light must be on (50% chance) | secret exit — no IEApi
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // factory4_day
+  // ════════════════════════════════════════════════════════════
+  'factory4_day': {
+    'Camera Bunker Door': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'Cellars': { enabled: true  }, // PMC + Scav | always open | IEApi: yes
+    'Gate 0': { enabled: true  }, // PMC + Scav | always open | IEApi: yes
+    'Gate 3': { enabled: true  }, // PMC + Scav | always open | IEApi: yes
+    'Gate m': { enabled: true  }, // PMC + Scav | always open | IEApi: yes
+    'Gate_o': { enabled: true  }, // PMC + Scav | always open | IEApi: yes
+    'Office Window': { enabled: true  } // Scav (promoted) | always open | IEApi: yes
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // factory4_night
+  // ════════════════════════════════════════════════════════════
+  'factory4_night': {
+    'Camera Bunker Door': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'Cellars': { enabled: true  }, // PMC + Scav | always open | IEApi: yes
+    'Gate 0': { enabled: true  }, // PMC + Scav | always open | IEApi: yes
+    'Gate 3': { enabled: true  }, // PMC + Scav | always open | IEApi: yes
+    'Gate m': { enabled: true  }, // PMC + Scav | always open | IEApi: yes
+    'Gate_o': { enabled: true  }, // PMC + Scav | always open | IEApi: yes
+    'Office Window': { enabled: true  } // Scav (promoted) | always open | IEApi: yes
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // interchange
+  // ════════════════════════════════════════════════════════════
+  'interchange': {
+    'Hole Exfill': { enabled: true  }, // PMC + Scav | no backpack required | IEApi: yes
+    'Interchange Cooperation': { enabled: false }, // Co-op (PMC + Scav required) | BREAKS AI if enabled
+    'NW Exfil': { enabled: true  }, // PMC | always open | IEApi: yes
+    'PP Exfil': { enabled: true  }, // PMC + Scav | car extract — 5000 roubles, 50% chance | IEApi: yes
+    'Saferoom Exfil': { enabled: true  }, // PMC | power + flush urinal + Object 11SR keycard | IEApi: yes
+    'SE Exfil': { enabled: true  } // PMC | always open | IEApi: yes
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // laboratory
+  // ════════════════════════════════════════════════════════════
+  'laboratory': {
+    'lab_Elevator_Cargo': { enabled: true  }, // PMC | switch must be activated | IEApi: yes
+    'lab_Elevator_Main': { enabled: true  }, // PMC | switch must be activated | IEApi: yes
+    'lab_Elevator_Med': { enabled: true  }, // PMC | switch must be activated | IEApi: yes
+    'lab_Hangar_Gate': { enabled: true  }, // PMC | switch must be activated, 60% chance | IEApi: yes
+    'lab_Parking_Gate': { enabled: true  }, // PMC | switch must be activated, 60% chance | IEApi: yes
+    'lab_Under_Storage_Collector': { enabled: true  }, // PMC | switch must be activated | IEApi: yes
+    'lab_Vent': { enabled: true  } // PMC | no backpack required | IEApi: yes
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // labyrinth
+  // ════════════════════════════════════════════════════════════
+  'labyrinth': {
+    'labir_exit': { enabled: true  } // Only exit | time-limited (open for first 15 min) | IEApi: unknown
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // lighthouse
+  // ════════════════════════════════════════════════════════════
+  'lighthouse': {
+    ' V-Ex_light': { enabled: true  }, // PMC | car extract — 5000 roubles, 50% chance | IEApi: yes
+    'Alpinist_light': { enabled: true  }, // PMC | Red Rebel Ice Pick + Paracord + no armor vest | IEApi: yes
+    'Coastal_South_Road': { enabled: true  }, // PMC | always open | IEApi: yes
+    'EXFIL_Train': { enabled: true  }, // PMC + Scav | armored train (arrives 25-35 min in) | IEApi: yes
+    'Nothern_Checkpoint': { enabled: true  }, // PMC | always open | IEApi: yes
+    'Scav_Coastal_South': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'Scav_Hideout_at_the_grotto': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'Scav_Industrial_zone': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'Scav_Underboat_Hideout': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'Shorl_free': { enabled: true  }, // PMC | always open | IEApi: yes
+    'Shorl_free_scav': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'tunnel_shared': { enabled: false } // Co-op (PMC + Scav required) | BREAKS AI if enabled
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // rezervbase
+  // ════════════════════════════════════════════════════════════
+  'rezervbase': {
+    'Alpinist': { enabled: true  }, // PMC | Red Rebel Ice Pick + Paracord + no armor vest | IEApi: yes
+    'EXFIL_Bunker': { enabled: true  }, // PMC + Scav | lever must be activated (4-min window) | IEApi: yes
+    'EXFIL_Bunker_D2': { enabled: true  }, // PMC + Scav | power must be restored in command bunker | IEApi: yes
+    'EXFIL_ScavCooperation': { enabled: false }, // Co-op (PMC + Scav required) | BREAKS AI if enabled
+    'EXFIL_Train': { enabled: true  }, // PMC + Scav | armored train (arrives 25-35 min in) | IEApi: yes
+    'EXFIL_vent': { enabled: true  }, // PMC + Scav | no backpack required | IEApi: yes
+    'Exit1': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'Exit2': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'Exit3': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'Exit4': { enabled: true  } // Scav (promoted) | always open | IEApi: yes
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // sandbox
+  // ════════════════════════════════════════════════════════════
+  'sandbox': {
+    'Nakatani_stairs_free_exit': { enabled: true  }, // PMC + Scav | always open | IEApi: yes
+    'Sandbox_VExit': { enabled: true  }, // PMC + Scav | car extract — 5000 roubles | IEApi: yes
+    'Scav_coop_exit': { enabled: false }, // Co-op (PMC + Scav required) | BREAKS AI if enabled
+    'Sniper_exit': { enabled: true  }, // PMC + Scav | always open | IEApi: yes
+    'Unity_free_exit': { enabled: true  } // PMC + Scav | always open | IEApi: yes
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // sandbox_high
+  // ════════════════════════════════════════════════════════════
+  'sandbox_high': {
+    'Nakatani_stairs_free_exit': { enabled: true  }, // PMC + Scav | always open | IEApi: yes
+    'Sandbox_VExit': { enabled: true  }, // PMC + Scav | car extract — 5000 roubles | IEApi: yes
+    'Scav_coop_exit': { enabled: false }, // Co-op (PMC + Scav required) | BREAKS AI if enabled
+    'Sniper_exit': { enabled: true  }, // PMC + Scav | always open | IEApi: yes
+    'Unity_free_exit': { enabled: true  } // PMC + Scav | always open | IEApi: yes
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // shoreline
+  // ════════════════════════════════════════════════════════════
+  'shoreline': {
+    'Adm Basement': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'CCP Temporary': { enabled: true  }, // PMC | always open, 50% chance | IEApi: yes
+    'Lighthouse': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'Lighthouse_pass': { enabled: true  }, // PMC + Scav | always open | IEApi: yes
+    'Pier Boat': { enabled: true  }, // PMC | always open, 50% chance | IEApi: yes
+    'RedRebel_alp': { enabled: true  }, // PMC | Red Rebel Ice Pick + Paracord + no armor vest | IEApi: yes
+    'Road to Customs': { enabled: true  }, // PMC + Scav | always open | IEApi: yes
+    'Road_at_railbridge': { enabled: true  }, // PMC | always open | IEApi: yes
+    'Rock Passage': { enabled: false }, // chance=0% in database — never spawns
+    'RWing Gym Entrance': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'Scav Road to Customs': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'Shorl_V-Ex': { enabled: true  }, // PMC | car extract — 5000 roubles | IEApi: yes
+    'Smugglers_Trail_coop': { enabled: false }, // Co-op (PMC + Scav required) | BREAKS AI if enabled
+    'Tunnel': { enabled: true  }, // PMC | always open | IEApi: yes
+    'Wrecked Road': { enabled: true  } // Scav (promoted) | always open | IEApi: yes
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // tarkovstreets
+  // ════════════════════════════════════════════════════════════
+  'tarkovstreets': {
+    'E1': { enabled: true  }, // PMC | always open | IEApi: yes
+    'E2': { enabled: true  }, // PMC | always open | IEApi: yes
+    'E3': { enabled: true  }, // PMC | always open | IEApi: yes
+    'E4': { enabled: true  }, // PMC | always open | IEApi: yes
+    'E5': { enabled: true  }, // PMC | always open | IEApi: yes
+    'E6': { enabled: false }, // chance=0% in database — never spawns
+    'E7': { enabled: true  }, // PMC | always open | IEApi: yes
+    'E7_car': { enabled: true  }, // PMC | car extract — 5000 roubles, 50% chance | IEApi: yes
+    'E8': { enabled: true  }, // PMC | always open | IEApi: yes
+    'E8_yard': { enabled: true  }, // PMC | 40% chance | IEApi: yes
+    'E9_sniper': { enabled: true  }, // PMC | always open | IEApi: yes
+    'Exit_E10_coop': { enabled: false }, // Co-op (PMC + Scav required) | BREAKS AI if enabled
+    'scav_e2': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'scav_e3': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'scav_e4': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'scav_e5': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'scav_e7': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'scav_e8': { enabled: true  } // Scav (promoted) | always open | IEApi: yes
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // woods
+  // ════════════════════════════════════════════════════════════
+  'woods': {
+    'Dead Man\'s Place': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'East Gate': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'Factory Gate': { enabled: false }, // Co-op (PMC + Scav required) | BREAKS AI if enabled
+    'Mountain Stash': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'Old Station': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'Outskirts': { enabled: true  }, // PMC + Scav | always open | IEApi: yes
+    'RUAF Gate': { enabled: true  }, // PMC | 66% chance | IEApi: yes
+    'RUAF Roadblock': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'Scav House': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'South V-Ex': { enabled: true  }, // PMC | car extract — 3000 roubles, 50% chance | IEApi: yes
+    'The Boat': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'UN Roadblock': { enabled: true  }, // PMC + Scav | always open | IEApi: yes
+    'un-sec': { enabled: true  }, // PMC | always open | IEApi: yes
+    'West Border': { enabled: true  }, // Scav (promoted) | always open | IEApi: yes
+    'wood_sniper_exit': { enabled: false }, // Internal AI sniper exit — not a player exit
+    'ZB-014': { enabled: true  }, // PMC | 66% chance | IEApi: yes
+    'ZB-016': { enabled: true  } // PMC | green flare required, 66% chance | IEApi: yes
+  }
+}

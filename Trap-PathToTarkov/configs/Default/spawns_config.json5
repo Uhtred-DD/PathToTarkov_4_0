@@ -1,0 +1,196 @@
+﻿// spawns_config.json5 — Per-spawn-point enable/disable control for Path To Tarkov
+// Auto-generated from shared_player_spawnpoints.json5. New spawn points are added automatically.
+// enabled: true  = spawn point is available for use
+// enabled: false = spawn point is removed from this profile
+{
+
+  // ════════════════════════════════════════════════════════════
+  // bigmap
+  // ════════════════════════════════════════════════════════════
+  'bigmap': {
+    'Administration Gate': { enabled: true  }, // Admin gate east
+    'Crossroads': { enabled: true  }, // West side crossroads
+    'Dorms Car': { enabled: true  }, // Dorms vehicle extract area
+    'Factory Far Corner': { enabled: true  }, // Far east factory corner
+    'Military Base CP': { enabled: true  }, // Near Scav checkpoint / military base road
+    'Old Gas Scav': { enabled: true  }, // Old gas station scav area
+    'RR to Military Base': { enabled: true  }, // Railroad north to military base
+    'RR to Port': { enabled: true  }, // Railroad to port
+    'RR to Tarkov': { enabled: true  }, // Railroad south to Tarkov
+    'RUAF Roadblock': { enabled: true  }, // RUAF checkpoint
+    'Scav CP': { enabled: true  }, // Scav checkpoint east
+    'Smugglers Boat': { enabled: true  }, // River dock / smuggler area
+    'Sniper Roadblock': { enabled: true  }, // Northeast sniper road
+    'Trailer Park': { enabled: true  }, // Trailer park area
+    'Trailer Park Workers Shack': { enabled: true  }, // Near workers shack
+    'Warehouse 17': { enabled: true  }, // Warehouse 17 area (Skier hideout)
+    'ZB-1011': { enabled: true  }, // ZB-1011 bunker entrance
+    'ZB-1012': { enabled: true  }, // ZB-1012 bunker area
+    'ZB-1013': { enabled: true  } // ZB-1013 bunker area
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // factory4_day
+  // ════════════════════════════════════════════════════════════
+  'factory4_day': {
+    'Camera Bunker Door': { enabled: true  }, // Camera / bunker area
+    'Cellars': { enabled: true  }, // Underground cellars
+    'Courtyard': { enabled: true  }, // Central courtyard
+    'Gate 0': { enabled: true  }, // West gate
+    'Gate 3': { enabled: true  }, // Main PMC gate
+    'Med tent gates': { enabled: true  }, // Medical area gates
+    'Transit to Customs': { enabled: true  }, // Transit spawn from Customs
+    'Transit to Labs': { enabled: true  } // Transit spawn from Labs
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // factory4_night
+  // ════════════════════════════════════════════════════════════
+  'factory4_night': {
+    'Camera Bunker Door': { enabled: true  }, // Camera / bunker area
+    'Cellars': { enabled: true  }, // Underground cellars
+    'Courtyard': { enabled: true  }, // Central courtyard
+    'Gate 0': { enabled: true  }, // West gate
+    'Gate 3': { enabled: true  }, // Main PMC gate
+    'Med tent gates': { enabled: true  }, // Medical area gates
+    'Transit to Customs': { enabled: true  }, // Transit spawn from Customs
+    'Transit to Labs': { enabled: true  } // Transit spawn from Labs
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // interchange
+  // ════════════════════════════════════════════════════════════
+  'interchange': {
+    'Emercom': { enabled: true  }, // Emercom checkpoint
+    'Fence Gap': { enabled: true  }, // Hole in fence (no backpack)
+    'FromCrossroads': { enabled: true  }, // Spawn from Customs crossroads transit
+    'Interchange Vehicle Extract': { enabled: true  }, // Car extract (5000 roubles)
+    'Railway': { enabled: true  }, // NW railway exit
+    'Safe Room': { enabled: true  }, // Saferoom (keycard required)
+    'Scav Camp': { enabled: true  } // Co-op scav camp
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // laboratory
+  // ════════════════════════════════════════════════════════════
+  'laboratory': {
+    'Cargo Elevator': { enabled: true  }, // Cargo elevator shaft
+    'Hangar Gate': { enabled: true  }, // Hangar gate
+    'Lab Sewage Conduit': { enabled: true  }, // Sewage conduit
+    'Lab Vents': { enabled: true  }, // Ventilation shaft (no backpack)
+    'Main Elevator': { enabled: true  }, // Main elevator
+    'Med Block Elevator': { enabled: true  }, // Med block elevator
+    'Parking Gate': { enabled: true  } // Parking gate
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // lighthouse
+  // ════════════════════════════════════════════════════════════
+  'lighthouse': {
+    'Armored Train LH': { enabled: true  }, // Armored train
+    'Grotto': { enabled: true  }, // Grotto area
+    'Industrial Gates': { enabled: true  }, // Industrial zone gates
+    'Lighthouse Docks Boat': { enabled: true  }, // Docks boat area
+    'Lighthouse Tunnel': { enabled: true  }, // Tunnel to Shoreline
+    'Lighthouse Vehicle Extract': { enabled: true  }, // Car extract
+    'Mountain Pass': { enabled: true  }, // Mountain pass (Red Rebel)
+    'Northeast Mountains': { enabled: true  }, // Northeast mountain area
+    'Northern CP': { enabled: true  }, // Northern checkpoint
+    'Path to Shoreline': { enabled: true  }, // Path to Shoreline
+    'Southern Road': { enabled: true  }, // Southern road exit
+    'Southern Road Water': { enabled: true  } // South road waterfront
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // rezervbase
+  // ════════════════════════════════════════════════════════════
+  'rezervbase': {
+    'Bunker Hermetic': { enabled: true  }, // Bunker hermetic door
+    'Checkpoint Fence': { enabled: true  }, // CP fence exit4
+    'Cliff': { enabled: true  }, // Cliff descent north (Red Rebel)
+    'D-2': { enabled: true  }, // D-2 bunker (power restore required)
+    'Depot Hermetic': { enabled: true  }, // Depot hermetic door
+    'Heating Pipe': { enabled: true  }, // Heating pipe scav area
+    'Hole In Wall': { enabled: true  }, // Hole in the wall exit
+    'Reserve Manhole': { enabled: true  }, // Sewer manhole (no backpack)
+    'Scav lands': { enabled: true  }, // Scav lands southwest
+    'Scav lands rail': { enabled: true  }, // Scav lands rail siding
+    'Train Station': { enabled: true  } // Armored train station
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // sandbox
+  // ════════════════════════════════════════════════════════════
+  'sandbox': {
+    'EmercomGZ': { enabled: true  }, // Emercom checkpoint Ground Zero
+    'Mira Ave': { enabled: true  }, // Mira Avenue / sniper exit area
+    'Nakatani Basement Stairs': { enabled: true  }, // Nakatani stairs free exit
+    'Police Car': { enabled: true  }, // Police car vehicle extract
+    'Scav Hideout': { enabled: true  } // Scav hideout co-op area
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // shoreline
+  // ════════════════════════════════════════════════════════════
+  'shoreline': {
+    'Admin Basement': { enabled: true  }, // Admin building basement
+    'CCP Temporary': { enabled: true  }, // CCP temporary checkpoint
+    'Climbers Trail': { enabled: true  }, // Climbers trail path
+    'North Fence Passage': { enabled: true  }, // North dorms car exit area
+    'Old Bunker': { enabled: true  }, // Old bunker area
+    'Path to Lighthouse': { enabled: true  }, // Path to Lighthouse
+    'Pier Boat': { enabled: true  }, // Pier boat exit
+    'Railway Bridge': { enabled: true  }, // Railway bridge exit
+    'Road to Customs': { enabled: true  }, // North road to Customs
+    'Ruined Road': { enabled: true  }, // Ruined road scav exit
+    'Shoreline Northern Cliffs': { enabled: true  }, // Northern cliffs
+    'Shoreline Tunnel': { enabled: true  }, // Tunnel to Lighthouse
+    'Shoreline Vehicle Extract': { enabled: true  }, // Car extract
+    'Smugglers Path': { enabled: true  } // Smugglers trail co-op area
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // tarkovstreets
+  // ════════════════════════════════════════════════════════════
+  'tarkovstreets': {
+    'Basement Descent': { enabled: true  }, // Basement entrance
+    'Cardinal Appartments': { enabled: true  }, // Cardinal apartments
+    'Cardinal Appartments Parking': { enabled: true  }, // Cardinal apartments parking
+    'Catacombs': { enabled: true  }, // Underground catacombs
+    'Crane': { enabled: true  }, // Crane area
+    'Crash Site': { enabled: true  }, // Crash site E4
+    'Evacuation Zone': { enabled: true  }, // Evacuation zone
+    'Expo Checkpoint': { enabled: true  }, // Expo checkpoint
+    'Kamchatskaya Arch': { enabled: true  }, // Kamchatskaya arch
+    'Klimov Street': { enabled: true  }, // Klimov street exit
+    'Sewer River': { enabled: true  }, // Sewer river area
+    'Streets Manhole': { enabled: true  }, // Manhole cover
+    'Streets Ruined House': { enabled: true  }, // Ruined house E3
+    'Streets Vehicle Extract': { enabled: true  }, // Car extract E7_car
+    'Streets Vents': { enabled: true  }, // Ventilation shaft
+    'Stylobate Elevator': { enabled: true  }, // Stylobate elevator
+    'Underpass': { enabled: true  }, // Underpass tunnel
+    'Zmeevsky Alley': { enabled: true  } // Zmeevsky alley
+  },
+
+  // ════════════════════════════════════════════════════════════
+  // woods
+  // ════════════════════════════════════════════════════════════
+  'woods': {
+    'Factory Gate': { enabled: true  }, // Factory gate south
+    'Mountain Stash': { enabled: true  }, // Jaeger mountain stash
+    'Northern UN Roadblock': { enabled: true  }, // North UN checkpoint
+    'Old Station': { enabled: true  }, // Old sawmill station
+    'Outskirts': { enabled: true  }, // Outskirts area southeast
+    'RUAF Gate': { enabled: true  }, // RUAF military gate
+    'Sawmill River': { enabled: true  }, // Sawmill riverside
+    'Scav Bridge': { enabled: true  }, // Scav bridge area
+    'Scav Bunker': { enabled: true  }, // Scav bunker south
+    'Sniper Rock Bunker': { enabled: true  }, // High ground rock bunker
+    'The Boat': { enabled: true  }, // The boat area
+    'UN Roadblock': { enabled: true  }, // UN roadblock south
+    'Woods Vehicle Extract': { enabled: true  }, // Vehicle extract area
+    'ZB-014': { enabled: true  }, // ZB-014 bunker area
+    'ZB-016': { enabled: true  } // ZB-016 bunker area
+  }
+}
